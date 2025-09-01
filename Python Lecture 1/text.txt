@@ -1,0 +1,9 @@
+- Variable - we can consider it as a container in which something (value) is stored
+- Data Types - the type of data which we have stored in a container(Variable)
+- Operators
+- conditional statements
+- control flow statements
+- nested for loop
+- Functions
+- pre-built
+
