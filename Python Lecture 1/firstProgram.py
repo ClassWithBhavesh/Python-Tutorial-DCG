@@ -60,14 +60,62 @@
 # print(type(tup))
 
 
-set = {10,20,30,40}
-print(set)
-print(type(set))
+# set = {10,20,30,40}
+# print(set)
+# print(type(set))
 
 
-dict = {
-    "user1": "Bhavesh",
-    "user2": "Anurag"
-}
-print(dict)
-print(type(dict))
+# dict = {
+#     "user1": "Bhavesh",
+#     "user2": "Anurag"
+# }
+# print(dict)
+# print(type(dict))
+
+
+
+# num1 = 20
+# print(num1)
+# num2 = num1
+# print(num2)
+
+# num2 = num1 - 15
+# print(num2)
+# print(num1)
+
+
+
+
+# List in python
+# li = ["Bhavya", "Gourav", "Anurag", "Ramessss"]
+# print(li)
+
+# li1 = []
+# print(li1)
+
+
+# tuple in python
+# tup = (True,20,"30",60)
+# print(tup)
+# new_tup = (True,210,"30",60)
+# new_new_tup = ("isuc", 20.3)
+
+# new_list = [tup, new_tup]
+# print(new_list)
+
+# new_list.insert(2 ,new_new_tup)
+# print(new_list[1][10])
+
+
+# li.sort(reverse=True)
+# print(li)
+
+
+# li.pop()
+# print(li)
+
+# li.append("Ramessss")
+# print(li)
+
+# li.insert(-3,"Ramessss")
+# print(li)
