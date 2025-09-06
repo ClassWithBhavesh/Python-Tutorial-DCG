@@ -1,0 +1,65 @@
+Conditional Statement problem solving questions -
+
+🔹 Part 1: Technical Questions (10)
+
+Write a program to check whether a given number is positive, negative, or zero.
+
+Write a program that checks if a given number is even or odd.
+
+Write a program to check whether a given year is a leap year or not.
+
+Write a program to find the greatest of two numbers entered by the user.
+
+Write a program to find the greatest among three numbers entered by the user.
+
+Write a program that checks whether a given number is divisible by 5 or not.
+
+Write a program to check whether a given character is a vowel or a consonant.
+
+Write a program to check whether a student has passed or failed an exam. (Passing marks = 40).
+
+Write a program that checks whether a given number is within the range 10 to 50 or not.
+
+Write a program to check if a number is multiple of 3, multiple of 7, or neither.
+
+
+
+🔹 Part 2: Real-life Based Questions (10)
+
+A shopkeeper gives a 10% discount if the purchase amount is more than 500. Otherwise, no discount. Write a program to check discount eligibility.
+
+A person can vote if his/her age is 18 or above. Otherwise, not eligible. Write a program.
+
+A traffic light shows Red → Stop, Yellow → Wait, Green → Go. Write a program to print the action based on the light color.
+
+A student’s grade is decided as:
+
+Marks ≥ 90 → Grade A
+
+Marks ≥ 75 → Grade B
+
+Marks ≥ 50 → Grade C
+
+Otherwise → Fail
+Write a program to assign grade.
+
+Write a program to check whether a person is child (0–12), teen (13–19), adult (20–59), or senior citizen (60+).
+
+A cinema ticket costs 200. If the person’s age is below 12, ticket costs 100. If age is above 60, ticket costs 150. Otherwise, normal price. Write a program.
+
+A company gives a bonus to employees: If experience ≥ 5 years, bonus = 10,000 else bonus = 5,000. Write a program to calculate bonus.
+
+A weather app shows:
+
+Temp < 0 → "Freezing Weather"
+
+Temp 0–20 → "Cold Weather"
+
+Temp 21–35 → "Normal Weather"
+
+Temp > 35 → "Hot Weather"
+Write a program.
+
+An ATM allows withdrawal only if amount ≤ balance. Otherwise, print “Insufficient Balance”. Write a program.
+
+A student gets scholarship if marks ≥ 85. Otherwise, no scholarship. Write a program.
