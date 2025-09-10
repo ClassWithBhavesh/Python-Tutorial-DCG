@@ -9,8 +9,31 @@
 
 # if(mango_count == dozen):
 #     print("mango_count are one dozen")
+# elif(mango_count < dozen):
+#     print("mango_count are less than dozen")
+# elif(mango_count > dozen):
+#     print("mango_count are more than dozen")
 # else:
 #     print("mango_count are not one dozen")
+
+dozen = 12
+mango_count = int(input("Enter the mango count"))
+
+if(type(mango_count) == int):
+    if(mango_count == dozen):
+        print("mango_count are one dozen")
+    elif(mango_count < dozen):
+        print("mango_count are less than dozen")
+    elif(mango_count > dozen):
+        print("mango_count are more than dozen")
+    else:
+        print("mango_count are not one dozen")
+else:
+    if(type(mango_count) == str):
+        print("the given input is an string, please make sure to provide integer value")
+    else:
+        print("the given input is an string, please make sure to provide integer value")
+
 
 
 
