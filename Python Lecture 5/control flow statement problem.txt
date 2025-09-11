@@ -1,0 +1,82 @@
+logical questions for loops in Python - 
+
+
+Basic Level - 
+
+🔹 Part 1: Technical Questions (10) :
+
+- Write a program to print numbers from 1 to 10 using a loop.
+- Write a program to print even numbers from 1 to 50 using a loop.
+- Write a program to print odd numbers from 1 to 50 using a loop.
+- Write a program to print the multiplication table of a given number.
+- Write a program to print all numbers divisible by 3 between 1 and 100.
+- Write a program to print the sum of first 10 natural numbers.
+- Write a program to print numbers in reverse order from 10 to 1.
+- Write a program to count how many numbers between 1 and 100 are divisible by both 2 and 5.
+- Write a program to print squares of numbers from 1 to 20.
+- Write a program to print numbers from 1 to 100 but skip multiples of 5.
+
+🔹 Part 2: Real-life Based Questions (10)
+
+- A student has 5 subjects. Use a loop to ask for marks of each subject and print pass/fail for each (passing = 40).
+
+- A person deposits money in a bank for 12 months. Use a loop to print the month number and balance added each month.
+
+- A shopkeeper sells 10 items. Use a loop to print the item number and whether the price is “cheap” (<100) or “expensive” (≥100).
+
+- A traffic light repeats Red → Yellow → Green for 5 cycles. Use a loop to print the light sequence.
+
+- A student appears in 3 unit tests. Use a loop to take input of marks and print pass/fail for each test.
+
+- A bus has seat numbers from 1 to 40. Use a loop to print all seat numbers, and mark odd seats as “Window Seat” and even seats as “Aisle Seat”.
+
+- A company runs 7 days a week. Use a loop to print day number and whether it is a “Working Day” (1–5) or “Weekend” (6–7).
+
+- A farmer waters his plants daily for 30 days. Use a loop to print the day number and whether it is an “Odd Day” or “Even Day”.
+
+- A cinema hall shows 4 movies daily. Use a loop to print movie show number and whether it is “Morning Show” (1–2) or “Evening Show” (3–4).
+
+- A cricket team plays 10 matches. Use a loop to print match number and check whether the match is “Home” (odd) or “Away” (even).
+
+
+
+
+
+Intermediate Level -
+
+🔹 Part 1: Technical Questions (10)
+
+- Write a program to print all elements of a list using a loop.
+- Write a program to print all even numbers from a list using a loop.
+- Write a program to find the largest number in a list using only loops and conditionals.
+- Write a program to find the smallest number in a tuple using only loops and conditionals.
+- Write a program to count how many times a number appears in a list.
+- Write a program to remove duplicates from a list using a set and loop.
+- Write a program to print all keys and values of a dictionary using a loop.
+- Write a program to count how many values in a dictionary are greater than 50.
+- Write a program to check whether a number exists in a tuple or not using a loop.
+- Write a program to separate even and odd numbers from a list into two sets.
+
+
+
+🔹 Part 2: Real-life Problems (10)
+
+- A teacher has a list of students’ marks. Use a loop to print pass/fail for each student (passing = 40).
+
+- A shop has a list of item prices. Use a loop to print “Cheap” if <100 else “Expensive” for each item.
+
+- A dictionary contains product names as keys and their quantities as values. Use a loop to print which products are “Out of Stock” (0 qty).
+
+- A list stores daily temperatures of a week. Use a loop to print which days had “Hot” (>30) or “Cold” (≤30) temperature.
+
+- A tuple stores ages of people in a family. Use a loop to print whether each person is “Minor” (<18) or “Adult” (≥18).
+
+- A set contains roll numbers of students who submitted homework. Use a loop to check and print which roll numbers from 1–10 are missing.
+
+- A dictionary stores names of employees as keys and their salaries as values. Use a loop to print employees with salaries above 50,000.
+
+- A shopkeeper has a list of 10 bills. Use a loop to find and print the highest bill amount.
+
+- A football team has a tuple of player ages. Use a loop to count how many are below 25 years.
+
+- A dictionary stores subjects as keys and marks as values. Use a loop to print subjects where the student scored less than 35.
