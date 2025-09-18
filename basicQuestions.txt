@@ -1,0 +1,86 @@
+🧩 10 Logical-Algorithmic Questions
+
+Factorial with Recursion
+Write a recursive function to calculate the factorial of a given number.
+
+Prime Number Checker
+Create a function that takes an integer and returns True if it is prime, otherwise False.
+
+Fibonacci Series (Recursion + Loop)
+Print the first n Fibonacci numbers using both a loop and a recursive function.
+
+Reverse a String
+Reverse a string without using slicing or built-in reverse methods.
+
+Armstrong Number Test
+Check if a number is an Armstrong number (sum of cubes of digits equals the number).
+
+Unique Elements Counter
+Write a function that counts how many unique elements appear in a given list.
+
+Second Largest Element
+Find the second largest number in a list without using max() or sorting.
+
+Sum of Digits (Recursive)
+Recursively find the sum of the digits of an integer.
+
+Character Frequency in String
+Count the frequency of each character in a string and display the result as a dictionary.
+
+Matrix Transpose
+Given a 2-D list (matrix), print its transpose without using external libraries.
+
+
+
+
+🌍 10 Real-Life Scenario Questions
+
+Restaurant Bill Splitter
+Input the total bill and number of people, then calculate each person’s share including a 10% tip.
+
+Temperature Converter
+Convert a given temperature from Celsius to Fahrenheit and vice versa based on user choice.
+
+Shopping Cart Total
+Take a dictionary of items and prices; calculate the total cost and apply a discount if the total exceeds ₹1000.
+
+Student Grade Calculator
+Accept marks of 5 subjects and print the grade (A, B, C, Fail) based on average marks.
+
+ATM Withdrawal Simulation
+Simulate an ATM that checks balance before withdrawal and deducts the amount if sufficient.
+
+Daily Planner
+Accept tasks for each day of the week and store them in a dictionary, then print the plan for a user-entered day.
+
+Bus Seat Reservation
+Represent 40 seats as a list of booleans (True = booked, False = available). Allow a user to book or cancel seats and display updated status.
+
+Library Fine Calculator
+Calculate fine based on number of days a book is late:
+
+0–5 days: ₹2/day
+
+6–10 days: ₹5/day
+
+10 days: ₹10/day.
+
+Fitness Tracker
+Input daily steps for a week using a list. Print the day with the maximum steps and total weekly steps.
+
+Simple Contact Book
+Build a dictionary where keys are names and values are phone numbers. Provide options to add, search, or delete a contact.
+
+
+
+
+
+
+
+
+
+
+
+
+
+

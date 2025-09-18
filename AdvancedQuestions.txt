@@ -1,0 +1,151 @@
+🔢 Logical / Algorithmic Challenges (10)
+
+1️⃣ N-Queens Problem
+Goal: Place N queens on an N x N chessboard so that no two queens threaten each other.
+Requirements:
+Accept an integer N (≥4).
+Use recursion with backtracking to explore safe queen placements.
+Output all valid board configurations (e.g., list of lists or coordinates).
+Display or print the total number of solutions.
+Hint: Check column, row, and both diagonals when placing each queen.
+
+2️⃣ Sudoku Validator
+Goal: Verify whether a given 9×9 Sudoku grid is valid.
+Requirements:
+Input: 2-D list of integers (0–9), where 0 represents an empty cell.
+Ensure each row, column, and 3×3 subgrid contains no duplicate numbers 1–9.
+Print “Valid Sudoku” or “Invalid Sudoku” with reasons (e.g., duplicate in row 4).
+Do not attempt to solve the puzzle—only validate.
+
+3️⃣ Word Ladder Step Counter
+Goal: Find the minimum number of single-letter transformations to change a start word into a target word, where each intermediate word must exist in a given dictionary.
+Requirements:
+Inputs: start_word, end_word, and a list/set of valid words of equal length.
+Use Breadth-First Search (BFS) to find the shortest path.
+Output: Minimum steps and one possible transformation sequence.
+
+4️⃣ 0/1 Knapsack with Memoization
+Goal: Maximize value of items selected without exceeding weight capacity.
+Requirements:
+Inputs: arrays of weights[], values[], and integer capacity.
+Implement recursive solution with memoization (dynamic programming).
+Output: Maximum achievable value and which items are chosen.
+
+5️⃣ Merge Sort Implementation
+Goal: Sort a list of numbers using merge sort without using built-in sort.
+Requirements:
+Accept an unsorted list of integers.
+Implement the divide and conquer algorithm: split, sort sublists, merge.
+Show the list before and after sorting.
+
+6️⃣ Trie (Prefix Tree) Construction
+Goal: Store words in a Trie and support prefix search.
+Requirements:
+Implement a Trie class with methods: insert(word), search(word), and starts_with(prefix).
+Insert a given list of words, then allow user queries to test both full-word and prefix lookups.
+
+7️⃣ Graph Traversal (DFS & BFS)
+Goal: Traverse a graph using both Depth-First Search and Breadth-First Search.
+Requirements:
+Represent the graph as a dictionary: {node: [neighbors]}.
+Implement separate functions for DFS (recursive or stack) and BFS (queue).
+Output the visiting order starting from a chosen node.
+
+8️⃣ Longest Common Subsequence (Dynamic Programming)
+Goal: Find the longest subsequence common to two strings (not necessarily contiguous).
+Requirements:
+Input: Two strings.
+Use a 2-D dynamic programming table.
+Output: Length of the LCS and one valid subsequence.
+
+9️⃣ Matrix Multiplication
+Goal: Multiply two matrices without external libraries like NumPy.
+Requirements:
+Validate that the number of columns of Matrix A equals the number of rows of Matrix B.
+Use nested loops to compute the product.
+Print the resulting matrix in a clean tabular format.
+
+🔟 Permutations Generator
+Goal: Generate all possible permutations of a string or list.
+Requirements:
+Input: A string or list of unique elements.
+Use recursion to produce every permutation.
+Print the count and display each permutation.
+
+
+
+
+
+
+
+🌍 Real-Life / Scenario-Based Projects (10)
+
+1️⃣ Mini E-Commerce Backend
+Goal: Simulate a simple cart system in the console.
+Requirements:
+Maintain a product catalog (dictionary: product → price).
+Features: add/remove products, update quantities, show cart, calculate subtotal + tax.
+Persist the cart during the session and display final invoice.
+
+2️⃣ Chat Room Simulation
+Goal: Imitate a multi-user chat in a single console session.
+Requirements:
+Users can join/leave and send messages.
+Store data as {username: [list_of_messages]}.
+Provide commands like /join, /leave, /send <msg>, /show <user>.
+
+3️⃣ Flight Seat Allocation System
+Goal: Manage bookings for economy and business class.
+Requirements:
+Represent seats (e.g., 6 rows × 4 columns).
+Allow booking only if seat is free and class matches.
+Prevent double booking and show a seating chart after each operation.
+
+4️⃣ Bank Loan EMI Calculator
+Goal: Compute monthly EMI and generate a payment schedule.
+Requirements:
+Inputs: principal, annual interest rate, and tenure in months.
+Display monthly EMI, total interest, and remaining balance after each payment.
+Use the standard EMI formula and loops for amortization.
+
+5️⃣ Restaurant Order Management
+Goal: Handle multiple table orders simultaneously.
+Requirements:
+Menu stored as {item: price}.
+For each table, allow add/remove dishes, print individual bills, and track total revenue.
+Include taxes and optional service charge.
+
+6️⃣ Real-Time Polling App (Console)
+Goal: Conduct a live poll with multiple options.
+Requirements:
+Admin creates a poll with a question and options.
+Users vote; update counts instantly.
+Continuously show current percentages until the poll is closed.
+
+7️⃣ Hotel Room Reservation
+Goal: Manage room bookings, check-in, and check-out.
+Requirements:
+Track room type, occupancy, and status (available/occupied).
+Prevent double booking.
+Generate a daily occupancy report and total revenue.
+
+8️⃣ Stock Price Analyzer
+Goal: Analyze daily stock prices for trends.
+Requirements:
+Input daily closing prices for a month (list of floats).
+Compute highest/lowest price, largest single-day gain, and longest rising streak.
+Display summary statistics.
+
+9️⃣ Personal Budget Planner
+Goal: Help a user plan monthly finances.
+Requirements:
+Input monthly income and multiple expenses categorized (food, rent, etc.).
+Calculate total expenses, savings, and show each category’s percentage of total spending.
+Suggest whether the user is within a desired savings goal.
+
+🔟 Simple File System Simulator
+Goal: Mimic a tiny file system entirely in memory.
+Requirements:
+Commands: create <filename> <content>, read <filename>, delete <filename>, list.
+Store data in a dictionary {filename: content}.
+Validate duplicates and handle invalid operations gracefully.

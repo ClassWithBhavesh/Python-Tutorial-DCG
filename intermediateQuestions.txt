@@ -1,0 +1,160 @@
+🔢 Logical / Algorithmic Questions
+
+1️⃣ Rotate List Elements
+
+Write a Python program that rotates a list of numbers to the right by k positions.
+Requirements:
+Take the list and the integer k as input.
+Do not use built-in methods like list.rotate() or slicing shortcuts.
+Handle cases where k is larger than the list length by rotating only the effective remainder.
+Example:
+Input: list = [1,2,3,4,5], k = 2 → Output: [4,5,1,2,3].
+
+2️⃣ GCD and LCM Finder
+Develop two functions: find_gcd(a, b) and find_lcm(a, b) to compute the Greatest Common Divisor and Least Common Multiple of two integers.
+Constraints:
+Use loops and conditionals only (no math.gcd or similar).
+Both numbers are positive integers.
+Output:
+Print both GCD and LCM with clear labels.
+
+3️⃣ Palindrome Sentence Checker
+Create a program that determines if an entire sentence is a palindrome.
+Requirements:
+Ignore spaces, punctuation, and case sensitivity.
+Input is a full line of text.
+Example:
+Input: "A man, a plan, a canal: Panama" → Output: Palindrome.
+
+4️⃣ Binary to Decimal Converter
+Write a function to manually convert a binary number (given as a string) into its decimal equivalent.
+Restrictions:
+Do not use Python’s int(x, 2) or similar built-ins.
+Validate that the input contains only 0 and 1; print an error otherwise.
+
+5️⃣ Spiral Matrix Print
+Given a 2-D matrix (list of lists), print all its elements in spiral order (clockwise, outer ring inward).
+Input: any M×N matrix.
+Output: a single list or space-separated string showing the traversal path.
+Example:
+1 2 3
+4 5 6
+7 8 9
+→ Output: 1 2 3 6 9 8 7 4 5.
+
+6️⃣ Vowel & Consonant Counter
+Build a program that counts the number of vowels and consonants in a user-entered sentence.
+Details:
+Ignore digits, spaces, and punctuation.
+Treat both uppercase and lowercase letters equally.
+Display separate counts for vowels and consonants.
+
+7️⃣ List Intersection & Difference
+Accept two lists of integers and:
+a. Find all elements present in both lists (intersection).
+b. Find elements that are unique to each list (symmetric difference).
+Conditions:
+Use loops and set operations; do not use direct set(list1) & set(list2) one-liners.
+8️⃣ Find Missing Number
+You are given a list of integers containing numbers from 1 to N with exactly one number missing.
+Task:
+Determine and print the missing number using either an arithmetic-sum method or XOR logic.
+The input list is unsorted.
+
+9️⃣ Manual Sorting
+Implement either Selection Sort or Bubble Sort to arrange a list of numbers in ascending order.
+Rules:
+No use of sort() or sorted().
+Show the list after each major iteration to demonstrate progress.
+
+🔟 Diamond Pattern Generator
+Write a program that prints a diamond-shaped pattern of stars of size n, where n is the maximum width (odd number).
+Example (n = 5):
+  *
+ ***
+*****
+ ***
+  *
+Requirement: Must use nested loops.
+
+
+
+
+
+🌍 Real-Life / Scenario-Based Questions
+
+1️⃣ Inventory Tracker
+Design an inventory management script for a small shop.
+Features:
+Store items in a dictionary with keys as product names and values as quantities.
+Menu options: Add new product, Update quantity, Remove product, View all products.
+Validate that quantities are non-negative integers.
+
+2️⃣ Bus Ticket Fare Calculator
+Write a program to calculate total ticket fare for a group of passengers.
+Inputs: number of passengers and each passenger’s age.
+Pricing:
+Child (<12): ₹50
+Adult (12–59): ₹100
+Senior (60+): ₹70
+Output: Print individual fares and the total amount.
+
+3️⃣ Simple Banking Menu
+Simulate a very basic banking system.
+Operations: Deposit, Withdraw, Check Balance, Exit.
+Details:
+Initial balance starts at ₹0.
+Prevent withdrawals that exceed current balance.
+Use a loop to show the menu repeatedly until Exit is chosen.
+
+4️⃣ Quiz Game
+Create a multiple-choice quiz application.
+Requirements:
+Prepare 5 questions with 4 options each, stored in a dictionary or list of dictionaries.
+Prompt the user for answers, track the score, and display correct answers at the end.
+Use only basic loops and conditionals—no external quiz libraries.
+
+5️⃣ Student Result System
+Develop a program to store and analyze student marks.
+Data: Dictionary with student names as keys and a list of marks as values.
+Features:
+Add new students and marks.
+Calculate and print each student’s average.
+Identify and display the class topper with the highest average.
+
+6️⃣ Expense Splitter with Categories
+Create a tool to manage shared expenses among a group of friends.
+Requirements:
+Accept multiple expenses with category (food, travel, utilities, etc.) and payer’s name.
+Calculate total expense per category and equal share per person.
+Display how much each person owes or is owed.
+
+7️⃣ Password Strength Checker
+Develop a password validator.
+Rules:
+Minimum length 8 characters.
+Must contain at least one uppercase letter, one lowercase letter, one digit, and one special character.
+Output: Indicate whether the password is Strong, Moderate, or Weak with clear reasoning.
+
+8️⃣ Library Book Management
+Simulate a simple library system.
+Functions:
+Add new books (title & author), issue books, return books.
+Track which books are available or issued using a dictionary of title → status.
+Allow multiple operations in a menu loop.
+
+9️⃣ Weather Data Analyzer
+Create a temperature analysis tool for a month.
+Inputs: Daily temperatures (list of 30 integers).
+Outputs:
+Highest and lowest temperature.
+Average temperature of the month.
+Count of days with temperature above the monthly average.
+
+🔟 Movie Ticket Booking System
+Implement a console-based booking system for a small theatre.
+Details:
+Total seats = 50 (numbered 1–50).
+Maintain a list or set of booked seats.
+Allow the user to book multiple seats in one transaction until sold out.
+Display booked and remaining seats after each booking.
