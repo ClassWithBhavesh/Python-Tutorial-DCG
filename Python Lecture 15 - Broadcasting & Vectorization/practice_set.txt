@@ -1,0 +1,76 @@
+--------> Logical / Concept-Based Questions
+
+
+Array Creation:
+--> Create a NumPy array of integers from 10 to 50 (inclusive) and reshape it into a 4x5 matrix.
+
+Even Number Extraction:
+--> From a 1D NumPy array of numbers 0–20, extract only the even numbers.
+
+Replace Elements:
+--> Replace all values greater than 50 in a NumPy array with 50.
+
+Matrix Transpose:
+--> Create a 3×4 NumPy array and find its transpose using both .T and np.transpose().
+
+Array Comparison:
+--> Given two arrays, check element-wise if they are equal or not.
+
+Conditional Slicing:
+--> Given an array of 10 random integers, extract all elements greater than the mean value.
+
+Broadcasting Practice:
+--> Add a 1D array [10, 20, 30] to each row of a 3x3 matrix.
+
+Stacking Arrays:
+--> Create two arrays of shape (2, 3) and stack them vertically and horizontally using NumPy functions.
+
+Flatten and Reshape:
+--> Create a 2D array and flatten it into 1D, then reshape it back to its original dimensions.
+
+Sorting Challenge:
+--> Create a NumPy array of random integers and sort it in both ascending and descending order.
+
+
+
+
+
+
+
+-------> Real-Life / Practical Problem-Based Questions
+
+Temperature Conversion:
+--> Convert a NumPy array of daily temperatures in Celsius to Fahrenheit using vectorized operations.
+
+Sales Growth Analysis:
+--> Suppose you have monthly sales data for 12 months in a NumPy array. Calculate the percentage growth month over month.
+
+Sensor Data Cleaning:
+--> Replace all invalid sensor readings (negative values) in a NumPy array with 0.
+
+Grayscale Image Simulation:
+--> Create a 2D NumPy array (10x10) representing pixel brightness (0–255).
+Increase the brightness of the entire image by 20, ensuring values don’t exceed 255.
+
+Exam Result Normalization:
+--> Given an array of students’ marks out of 100, normalize the data between 0 and 1.
+
+Stock Price Volatility:
+--> Given an array of stock prices for 7 days, calculate daily percentage changes using NumPy.
+
+Traffic Data Analysis:
+--> Suppose each row of a 3x4 matrix represents the number of vehicles counted at 3 intersections over 4 hours.
+Find total vehicles per intersection and per hour.
+
+Matrix Distance Calculation:
+--> Given two coordinate arrays (latitude, longitude) of cities, compute Euclidean distance using NumPy operations.
+
+E-commerce Order Analytics:
+--> Given a 2D array representing prices and quantities of 5 products, calculate total revenue for each product.
+
+Weather Data Statistics:
+--> Generate a random 2D array of shape (7, 24) representing temperatures (°C) for a week (rows → days, columns → hours).
+Find:
+Mean temperature per day
+Maximum temperature of the week
+Hour of the day with the highest average temperature
